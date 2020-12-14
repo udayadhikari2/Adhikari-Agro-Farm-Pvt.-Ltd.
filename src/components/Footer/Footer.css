@@ -1,0 +1,133 @@
+.footer{
+    background:rgb(24, 24, 24);
+    width:100%;
+    height:auto;
+    padding:20px 10px;
+}
+.footer-container{
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-size:20px;
+}
+.footer-logo{
+    padding:20px 0px;
+    display:flex;
+    justify-content: center;
+}
+section{
+    margin:10px 20px;
+}
+.footer-heading{
+    padding:10px 0px;
+}
+form{
+    margin:10px 0px;
+    padding:10px 0px;
+}
+.subscrib-form input{
+    margin:0px 10px;
+    padding:8px 10px;
+}
+.form-email-input{
+    outline:none;
+    border:none;
+    border-radius:5px;
+    width:200px;
+    margin:0px;
+}
+.form-email-input:focus{
+    background:rgba(71, 71, 71, 0.753);
+    color:white;
+}
+.form input[type="submit"]{
+    border:2px solid white;
+    border-radius:5px;
+    outline: none;
+    background:transparent;
+    color:white;
+    font-weight: bold;
+    padding:5px 10px;
+    transition:all 0.3s ease-in-out;
+}
+.form input[type="submit"]:hover{
+    background:white;
+    color:black;
+    cursor: pointer;
+    
+}
+.footer-info-container{
+    /* border:1px solid white; */
+    margin:0px 20px;
+    width: 100%;
+}
+.footer-wapper{
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+}
+.footer-items-links{
+    padding:5px;
+    margin:15px 30px;
+    list-style:none;
+    /* border:1px solid white;    */
+}
+
+.footer-links{
+    color:white;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.footer-links:hover{
+    color:red;
+}
+.copyRight-socialMedia-container{
+    color:white;
+    font-size:18px;
+    background: rgba(31, 30, 30, 0.486);
+}
+.copyRight-socialMedia-container-wapper{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.copyRight-container{
+    color:rgb(177, 177, 177);
+    font-size: medium;
+}
+.socialMedia-container{
+   padding:0px 0px;
+}
+.socialMedia ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.socialMedia-items li{
+    list-style: none;
+    padding:5px 15px;
+}
+.socialMedia-links{
+    color:white;
+    
+}
+.fab{
+    transition: all 0.3s ease-in-out;
+}
+.fa-facebook:hover{
+    color:#3B5998;
+    transform: scale(1.5);  
+}
+.fa-youtube:hover{
+    color:#d71e18;
+    transform: scale(1.5);  
+}
+.fa-viber:hover{
+    color:#665CAC;
+    transform: scale(1.5);  
+}
+.fa-facebook-messenger:hover{
+    color:#006AFF;
+    transform: scale(1.5);  
+}
